@@ -7,3 +7,10 @@ node_modules
 .data
 .env
 dist
+
+# Nexus dirty flag (lokaal)
+.nexus
+
+# Bench raw output (alleen geaggregeerde markdown in Testresults.md committen)
+bench-results/
+
