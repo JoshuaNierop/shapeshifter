@@ -8,8 +8,9 @@ Doel: we kunnen elke variant betrouwbaar meten en automatisch vergelijken.
 
 - [x] P0 — Fork + remotes config
 - [x] P0 — Rust toolchain
-- [~] P0 — wasm-pack
-- [ ] P0 — josh/main bouwt + runt (UI in browser, bench.mjs werkt)
+- [x] P0 — wasm-pack 0.15.0
+- [x] P0 — `bun i` op josh/main
+- [ ] P0 — `bun run build:wasm` + UI smoketest in browser + `bench.mjs` werkt
 - [ ] P0 — Bench-uitbreiding (`josh/opt-00-bench`) — volledige suite, JSON-output, statistics
 - [ ] P0 — Baseline meting van josh/main op alle puzzles
 

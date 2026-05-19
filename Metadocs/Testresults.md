@@ -12,11 +12,11 @@ Tabel-structuur — per puzzel een rij, per variant een kolom. Ratio = `baseline
 
 | Check | Status | Datum | Notities |
 |---|---|---|---|
-| `bun i` op josh/main | ⏳ | - | nog uit te voeren |
-| `bun run build:wasm` op josh/main | ⏳ | - | nog uit te voeren |
-| `bun --bun nuxt build` produces dist | ⏳ | - | nog uit te voeren |
-| `bun --bun run wasm/solver/bench.mjs level34 3 wasm` | ⏳ | - | nog uit te voeren |
-| `bun --bun nuxt dev` opent UI | ⏳ | - | nog uit te voeren |
+| `bun i` op josh/main | ✓ | 2026-05-19 | exit 0, node_modules aanwezig |
+| `bun run build:wasm` op josh/main | ⏳ | - | volgende sessie |
+| `bun --bun nuxt build` produces dist | ⏳ | - | volgende sessie |
+| `bun --bun run wasm/solver/bench.mjs level34 3 wasm` | ⏳ | - | volgende sessie — eerste baseline-meting |
+| `bun --bun nuxt dev` opent UI | ⏳ | - | volgende sessie |
 
 ## Engine matrix — single thread
 

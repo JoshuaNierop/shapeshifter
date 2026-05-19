@@ -13,8 +13,9 @@ Losse taken + openstaande beslissingen. Volledige plan staat in `Planning.md` en
 - [x] P0 — Fork gemaakt op github.com/JoshuaNierop/shapeshifter
 - [x] P0 — Remotes: origin = fork, upstream = Anoesj read-only
 - [x] P0 — Rust 1.95.0 + wasm32-unknown-unknown target
-- [~] P0 — wasm-pack installeren (cargo install loopt, fallback = official installer binary)
-- [ ] P0 — `bun i` op josh/main draaien en `bun run build:wasm` testen
+- [x] P0 — wasm-pack 0.15.0 geïnstalleerd via `cargo install --locked` (unlocked variant gaf typenum compile error)
+- [x] P0 — `bun i` succesvol op josh/main (node_modules klaar)
+- [ ] P0 — `bun run build:wasm` testen — eerstvolgende sessie
 - [ ] P0 — Baseline-run van Anoesj's `bench.mjs` om uitgangspositie vast te leggen
 
 ## Fase 0 — Bench-uitbreiding (P0)

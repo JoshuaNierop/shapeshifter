@@ -63,8 +63,8 @@ Twee parallelle solver-paden:
 Niet relevant in deze fase. We benchen lokaal; pas later UI live zetten.
 
 ## Status
-- Fase: planning -> onderzoek klaar, implementatie begint zodra Plan.md goedgekeurd
-- Blockers: geen (Rust 1.85+ + wasm-pack worden geïnstalleerd)
+- Fase: planning klaar; setup klaar; klaar om Fase 0 (bench-uitbreiding) te starten
+- Blockers: geen — toolchain (Rust 1.95, wasm-pack 0.15, bun deps) operationeel
 - Eigenaar: Joshua
 
 ## Links

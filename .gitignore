@@ -14,3 +14,12 @@ dist
 # Bench raw output (alleen geaggregeerde markdown in Testresults.md committen)
 bench-results/
 
+# Bun lockfile (binary form) — repo gebruikt text `bun.lock`
+bun.lockb
+
+# Nuxt prepared config
+.nuxtrc
+
+# Per-project Claude session log (lokaal hulpmiddel, niet samenwerking)
+claude-session-log.md
+
